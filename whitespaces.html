@@ -1,0 +1,331 @@
+<html><head><meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><style type="text/css">body {font-family: monospace; font-size: 13px; white-space: pre-wrap;}</style></head><body>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;&gt;
+<br/>&lt;html lang=&quot;en&quot;&gt;
+<br/>&lt;head&gt;
+<br/> &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=iso-8859-1&quot;&gt;
+<br/> &lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1.0&quot;&gt; &lt;title&gt;Unicode spaces&lt;/title&gt;
+<br/> &lt;link rel=&quot;stylesheet&quot; href=&quot;../small.css&quot;&gt;
+<br/> &lt;link rel=&quot;stylesheet&quot; href=&quot;../cfonts.css&quot;&gt;
+<br/>&lt;style type=&quot;text/css&quot;&gt;
+<br/>em { background: white; color: black; font-style: oblique}
+<br/>td span { border: solid #090 1px; padding: 0 0.1em; }
+<br/>body { max-width: 50em; }
+<br/>h1, p { max-width: 40em; }
+<br/>h2 { font-weight: bold; font-size: 110%; }
+<br/>blockquote { max-width: 38em; }
+<br/>.extchar { line-height: 1.4; }
+<br/>&lt;/style&gt;
+<br/>&lt;/head&gt;
+<br/>&lt;body&gt;
+<br/>&lt;h1&gt;Unicode spaces&lt;/h1&gt;
+<br/>
+<br/>&lt;p&gt;This document lists the various
+<br/>space characters in &lt;a href=&quot;../chars.html#10646&quot;&gt;Unicode&lt;/a&gt;.
+<br/>For a description, consult chapter
+<br/>&lt;cite&gt;&lt;a href=
+<br/>&quot;http://www.unicode.org/versions/latest/ch06.pdf&quot;
+<br/>type=&quot;application/pdf&quot;
+<br/>&gt;6&amp;nbsp;Writing Systems and Punctuation&lt;/a&gt;&lt;/cite&gt;
+<br/>and block description
+<br/>&lt;cite&gt;&lt;a href=
+<br/>&quot;http://www.unicode.org/charts/PDF/U2000.pdf&quot;
+<br/>type=&quot;application/pdf&quot;&gt;
+<br/>General Punctuation
+<br/>&lt;/a&gt;&lt;/cite&gt;
+<br/>in the Unicode standard. This document also lists three characters
+<br/>that have no width and can thus be described as no-width spaces.
+<br/>&lt;/p&gt;
+<br/>&lt;p&gt;The third column of the following table shows the appearance
+<br/>of the space character, in the sense that the cell contains the
+<br/>words &amp;#8220;foo&amp;#8221; and &amp;#8220;bar&amp;#8221; in bordered boxes
+<br/>separated by that character. 
+<br/>&lt;em&gt;It is 
+<br/>possible that your browser does not present all the space characters
+<br/>properly.&lt;/em&gt; This depends on the font used, on the browser,
+<br/>and on the fonts available in the system.&lt;/p&gt;
+<br/>
+<br/>&lt;table summary=
+<br/>&quot;First column: Unicode code number. Second column:
+<br/>name of the character. Third column: sample text &amp;quot;foo bar&amp;quot;
+<br/>with the space character in question between the words.
+<br/>Fourth column: description of the width of the character.&quot;
+<br/>border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot;&gt;
+<br/>&lt;caption&gt;Space characters and &amp;#8220;zero-width spaces&amp;#8221; in Unicode&lt;/caption&gt;
+<br/>&lt;thead&gt;
+<br/>&lt;tr&gt;&lt;th scope=&quot;col&quot;&gt;Code&lt;/th&gt; &lt;th scope=&quot;col&quot; abbr=&quot;name&quot;&gt;
+<br/>Name of the character&lt;/th&gt; 
+<br/>&lt;th scope=&quot;col&quot; title=&quot;sample text&quot;&gt;Sample&lt;/th&gt;
+<br/>&lt;th scope=&quot;col&quot; abbr=&quot;width&quot;&gt;Width of the character&lt;/th&gt;&lt;/tr&gt;
+<br/>&lt;/thead&gt;
+<br/>&lt;tbody&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+0020&lt;/td&gt; &lt;td&gt;SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#32;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt;
+<br/> &lt;td&gt;Depends on font, typically 1/4 em, often &lt;a href=&quot;#adj&quot;&gt;adjusted&lt;/a&gt;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+00A0&lt;/td&gt; &lt;td&gt;NO-BREAK SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#160;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt;
+<br/> &lt;td&gt;As a space, but often not
+<br/> adjusted&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+1680&lt;/td&gt; &lt;td&gt;OGHAM SPACE MARK&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#5760;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/> &lt;td&gt;Unspecified; usually not really a space but a dash&lt;/td&gt;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+180E&lt;/td&gt; &lt;td&gt;MONGOLIAN VOWEL SEPARATOR&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#x180e;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/> &lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+2000&lt;/td&gt; &lt;td&gt;EN QUAD&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8192;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/> &lt;td&gt;1 en (= 1/2 em)&lt;/td&gt;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+2001&lt;/td&gt; &lt;td&gt;EM QUAD&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8193;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt;
+<br/> &lt;td&gt;1 em (nominally, the height of the font)&lt;/td&gt; &lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+2002&lt;/td&gt; &lt;td&gt;EN SPACE (nut)&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8194;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt;
+<br/> &lt;td&gt;1 en (= 1/2 em)&lt;/td&gt; &lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+2003&lt;/td&gt; &lt;td&gt;EM SPACE (mutton)&lt;/td&gt; &lt;td nowrap&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8195;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt;
+<br/> &lt;td&gt;1 em&lt;/td&gt; &lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+2004&lt;/td&gt; &lt;td class=nobr&gt;THREE-PER-EM SPACE (thick space)&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8196;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt;
+<br/>&lt;td&gt;1/3 em&lt;/td&gt; &lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+2005&lt;/td&gt; &lt;td&gt;FOUR-PER-EM SPACE (mid space)&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8197;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/>&lt;td&gt;1/4 em&lt;/td&gt;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+2006&lt;/td&gt; &lt;td&gt;SIX-PER-EM SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8198;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/>&lt;td&gt;1/6 em&lt;/td&gt;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+2007&lt;/td&gt; &lt;td&gt;FIGURE SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8199;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt;
+<br/> &lt;td&gt;&amp;#8220;Tabular width&amp;#8221;, the width of digits  &lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+2008&lt;/td&gt; &lt;td&gt;PUNCTUATION SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8200;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/> &lt;td&gt;The width of a period &amp;#8220;.&amp;#8221;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+2009&lt;/td&gt; &lt;td&gt;THIN SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8201;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/> &lt;td&gt;1/5 em (or sometimes 1/6 em)&lt;/td&gt;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+200A&lt;/td&gt; &lt;td&gt;HAIR SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8202;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/> &lt;td&gt;Narrower than &lt;small&gt;THIN SPACE&lt;/small&gt;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+200B&lt;/td&gt; &lt;td&gt;ZERO WIDTH SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#x200b;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/>  &lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+202F&lt;/td&gt; &lt;td&gt;NARROW NO-BREAK SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8239;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt;
+<br/> &lt;td&gt;Narrower than &lt;small&gt;NO-BREAK SPACE&lt;/small&gt; (or &lt;small&gt;SPACE&lt;/small&gt;),
+<br/>&amp;#8220;typically the
+<br/>width of a thin space or a mid space&amp;#8221;
+<br/>&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+205F&lt;/td&gt; &lt;td nowrap&gt;MEDIUM MATHEMATICAL SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#8287;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/>&lt;td&gt;4/18 em&lt;/td&gt;&lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+3000&lt;/td&gt; &lt;td&gt;IDEOGRAPHIC SPACE&lt;/td&gt; &lt;td nowrap&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#12288;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt;
+<br/>&lt;td&gt;The width of ideographic (&lt;abbr title=&quot;Chinese, Japanese, Korean&quot;&gt;CJK&lt;/abbr&gt;) characters. &lt;/tr&gt;
+<br/>&lt;tr&gt;&lt;td&gt;U+FEFF&lt;/td&gt; &lt;td&gt;ZERO WIDTH NO-BREAK SPACE&lt;/td&gt; &lt;td&gt;&lt;span&gt;foo&lt;/span&gt;&amp;#xfeff;&lt;span&gt;bar&lt;/span&gt;&lt;/td&gt; 
+<br/>  &lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+<br/>&lt;/tbody&gt;
+<br/>&lt;/table&gt; 
+<br/>
+<br/>&lt;h2&gt;&amp;#8220;Zero-width spaces&amp;#8221;&lt;/h2&gt;
+<br/>&lt;p&gt;Previously
+<br/>MONGOLIAN VOWEL SEPARATOR (U+180E)
+<br/>was classified as a space character, now as formatting characters (with no width).
+<br/>The characters
+<br/>ZERO WIDTH SPACE (U+200B) and
+<br/>ZERO WIDTH NO-BREAK SPACE (U+FEFF) were never classified
+<br/>as space characters in Unicode, despite their name.
+<br/>
+<br/>&lt;p&gt;ZERO WIDTH SPACE, when supported, can be used to indicate a line breaking
+<br/>opportunity within a string. Similarly,
+<br/>ZERO WIDTH NO-BREAK SPACE can be used between two characters to &amp;#8200;glue&amp;#8221;
+<br/>them together, so that they no line breaking appears between them even
+<br/>if normal processing rules would allow that.
+<br/>
+<br/>
+<br/>&lt;!--
+<br/>&lt;p&gt;&lt;small&gt;In the Unicode standard, U+200B and U+FEFF are not
+<br/>included in the table of space characters, as they have no
+<br/>width and are not supposed to have any visible glyph.&lt;/small&gt;&lt;/p&gt;
+<br/>--&gt;
+<br/>
+<br/>&lt;h2&gt;Widths of space characters&lt;/h2&gt;
+<br/>&lt;p&gt;The characters U+2000&amp;hellip;U+2006, when implemented in a font, usually have
+<br/>the specific width defined for them, though small deviations exist.
+<br/>Their widths are defined in terms of the em unit, i.e. the size of the font.
+<br/>&lt;p&gt;The characters U+2007&amp;hellip;U+200A and U+202F have no exact width assigned to them
+<br/>in the standard, and implementations may deviate considerably even from the
+<br/>suggested widths. Moreover, when concepts with the same names, such as
+<br/>&amp;#8220;thin space&amp;#8221;, are used in publishing software, the meanings can be rather different.
+<br/>For example, in InDesign, &amp;#8220;thin space&amp;#8221; is now 1/8 em 
+<br/>(i.e. 0.125 em, as opposite to the suggested 0.2 em)
+<br/>and
+<br/>&amp;#8220;hair space&amp;#8221; only 1/24 em (i.e. about 0.042 em, whereas the width of a
+<br/>THIN SPACE glyph typically varies between 0.1 em and 0.2 em).
+<br/>
+<br/>&lt;h2&gt;Notes on support in browsers and other software&lt;/h2&gt;
+<br/>&lt;p&gt;Web browsers and other programs may fail
+<br/>to render all space characters according
+<br/>to their definitions or descriptions.
+<br/>Many commonly used fonts lack some of the space characters.
+<br/>The situation has improved over the years, but caution is still
+<br/>needed especially when text data may need to be transferred from
+<br/>one program to another or may be viewed using different fonts.
+<br/>
+<br/>&lt;!--
+<br/>&lt;p&gt;&lt;small&gt;
+<br/>In my original tests, on Windows XP with
+<br/>IE&amp;nbsp;6,
+<br/>using Times New Roman or Arial as the font, the page
+<br/>showed only the first two (space,
+<br/>no-break space) and the last one (ideographic space)
+<br/>correctly, presenting
+<br/>the other space characters as small rectangles that indicate
+<br/>unrepresentable glyphs or as spaces of incorrect width.
+<br/>When Arial Unicode&amp;nbsp;MS was used, all but
+<br/>the narrow no-break space (which was added to Unicode in version&amp;nbsp;3.0)
+<br/>were shown correctly. 
+<br/>(Newer versions of Arial, but not Arial Unicode MS, contain the
+<br/>narrow no-break space.)
+<br/>--&gt;
+<br/>
+<br/>&lt;p&gt;Modern browsers can usually find a glyph for a character
+<br/>if &lt;em&gt;some&lt;/em&gt; of the fonts in the system contain it. This does not
+<br/>always take place, however,
+<br/>See &lt;cite&gt;&lt;a href=&quot;/html/characters.html&quot;&gt;Guide to using special characters in HTML&lt;/a&gt;&lt;/cite&gt;.
+<br/>Moreover, font substitution may cause undesired effects, since the widths
+<br/>of characters vary by font.&lt;/p&gt;
+<br/>
+<br/>&lt;p&gt;The use of various space characters of specific
+<br/>width, such as &lt;small&gt;THIN SPACE&lt;/small&gt;,
+<br/>is often an unnecessary risk.
+<br/>Consider using other methods, such as the
+<br/>features of a text processing program or (on Web pages) CSS properties like
+<br/>&lt;code class=&quot;nobr&quot;&gt;padding&lt;/code&gt;,
+<br/>&lt;code class=&quot;nobr&quot;&gt;margin&lt;/code&gt;,
+<br/>&lt;code class=&quot;nobr&quot;&gt;word-spacing&lt;/code&gt;,
+<br/>and
+<br/>&lt;code class=&quot;nobr&quot;&gt;letter-spacing&lt;/code&gt;.
+<br/>&lt;/p&gt;
+<br/>
+<br/>&lt;h2 id=&quot;adj&quot;&gt;Width adjustments&lt;/h2&gt;
+<br/>
+<br/>&lt;p align=justify&gt;In text processing, Web page display, and other contexts,
+<br/>space characters are often &amp;#8220;adjustable&amp;#8221; in the
+<br/>sense that they are presented in different widths, especially
+<br/>to satisfy justification requirements. You might see this in effect in
+<br/>this paragraph. Justification often just makes spaces wider, though
+<br/>it may shrink them, too, especially in typesetting.&lt;/p&gt;
+<br/>&lt;p&gt;No-break spaces
+<br/>are defined in Unicode as having the same width as spaces.
+<br/>This does not specify what should happen to them in
+<br/>justification.
+<br/>The common practice has been to treat them
+<br/>as having fixed width (in each font), which means that
+<br/>in adjusted text, spaces and no-break spaces have different effects.&lt;/p&gt;
+<br/>
+<br/>&lt;p&gt;On web browsers, no-break spaces tended to be non-adjustable,
+<br/>but modern browsers generally stretch them on justification.
+<br/>Within 
+<br/>&lt;a href=&quot;../www/justify.html&quot;&gt;justified text on web pages&lt;/a&gt;,
+<br/>authors may have used no-break spaces instead of normal spaces
+<br/>to prevent stretching (e.g., as in &lt;code&gt;5&amp;amp;nbsp;m&lt;/code&gt; instead
+<br/>of &lt;code&gt;5&amp;nbsp;m&lt;/code&gt;). Due to changes in browser behavior,
+<br/>it is better to use fixed-width spaces instead. Among then, the four-per-em
+<br/>space 
+<br/>(e.g., as in &lt;code&gt;5&amp;amp;#x2005;m&lt;/code&gt;)
+<br/>usually best corresponds to the width of a normal unstretched
+<br/>space. However, the fixed-width spaces act as normal spaces
+<br/>in line breaking, so you may wish to use some technique to
+<br/>&lt;a href=&quot;../html/space.html&quot;&gt;prevent undesired line breaks&lt;/a&gt;
+<br/>(e.g., 
+<br/>e.g., as in &lt;code&gt;&amp;lt;nobr&gt;5&amp;amp;#x2005;m&amp;lt;/nobr&gt;&lt;/code&gt;).
+<br/>Alternatively, consider using
+<br/>&lt;small&gt;NARROW NO-BREAK SPACE&lt;/small&gt;, which is generally treated
+<br/>as non-stretchable in web browsers.
+<br/>It might be adequate in contexts where strings belong together so that
+<br/>they should not be split on two lines and could well be rendered with
+<br/>decreased spacing between them, e.g. in expressions like
+<br/>&amp;#8221;10&amp;#x202f;kg&amp;#8221; and &amp;#8221;C.&amp;#x202f;S.&amp;#x202f;Lewis&amp;#8221;.
+<br/>
+<br/>&lt;p&gt;&lt;small&gt;The change in the treatment of no-break spaces, though
+<br/>inconvenient, is consistent with changes in CSS specifications.
+<br/>For example, clause
+<br/> &lt;a href=&quot;https://drafts.csswg.org/css-text-3/#spacing&quot;&gt;7 Spacing&lt;/a&gt;
+<br/>of CSS Text Module Level 3 (Editor&amp;#8217;s Draft 24 Jan. 2019)
+<br/>defines the no-break space, but not the fixed-with spaces,
+<br/> as a word-separator character, stretchable on justification.
+<br/>&lt;/small&gt;&lt;/p&gt;
+<br/>
+<br/>&lt;p&gt;The Unicode standard describes the adjustment process
+<br/> and the intended role of specific-width space characterss as follows:&lt;/p&gt;
+<br/>
+<br/>&lt;blockquote cite=&quot;http://www.unicode.org/versions/Unicode4.0.0/ch06.pdf&quot;&gt;
+<br/>&lt;div&gt;The fixed-width space characters (U+2000..U+200A) are derived from
+<br/>conventional (hot lead) typography. Algorithmic kerning and justification in computerized
+<br/>ty­pog­ra­phy do not use these characters. However, where they are used, as, for example, in
+<br/>typesetting mathematical formulae, their width is generally font-specified, and they typically
+<br/>do not expand during justification. The exception is U+2009
+<br/>&lt;small&gt;THIN SPACE&lt;/small&gt;, which
+<br/>sometimes gets adjusted.&lt;/div&gt;
+<br/>&lt;/blockquote&gt;
+<br/>
+<br/>&lt;!--
+<br/>&lt;p&gt;The &lt;small&gt;ZERO-WIDTH SPACE&lt;/small&gt; character has nominally
+<br/>no width, but it too may be expanded during justification.&lt;/p&gt;
+<br/>--&gt;
+<br/>
+<br/>&lt;p&gt;The &lt;small&gt;EM QUAD&lt;/small&gt; character is canonical equivalent
+<br/>to &lt;small&gt;EM SPACE&lt;/small&gt;. The intended difference seems to be
+<br/>in the code chart note for the latter:
+<br/>&amp;#8220;may scale by the condensation factor of a font&amp;#8221;.
+<br/>There is no such note for &lt;small&gt;EN SPACE&lt;/small&gt;
+<br/>to make it any different from &lt;small&gt;EN QUAD&lt;/small&gt;.
+<br/>It is not clear what &amp;#8220;condensation factor&amp;#8221; means here.&lt;/p&gt;
+<br/>
+<br/>&lt;h2&gt;Other notes&lt;/h2&gt;
+<br/>
+<br/>&lt;p&gt;The &lt;small&gt;MEDIUM MATHEMATICAL SPACE&lt;/small&gt; character was added in Unicode
+<br/>version&amp;nbsp;4.0.&lt;/p&gt;
+<br/>
+<br/>&lt;p&gt;Regarding the non-breaking property of no-break space and other
+<br/>characters, see
+<br/>&lt;cite&gt;&lt;a href=&quot;../unicode/linebr.html&quot;
+<br/>&gt;Unicode line breaking rules: explanations and criticism&lt;/a&gt;&lt;/cite&gt;.&lt;/p&gt;
+<br/>
+<br/>&lt;!--&quot;http://www.microsoft.com/typography/developers/fdsspec/spaces.htm&quot;--&gt;
+<br/>&lt;p&gt;Microsoft&amp;#8217;s page &lt;cite&gt;&lt;a href=
+<br/>&quot;https://docs.microsoft.com/en-us/typography/develop/character-design-standards/whitespace&quot;
+<br/>&gt;Space Characters Design Standards&lt;/a&gt;&lt;/cite&gt; says:
+<br/>&amp;#8220;In digital fonts there are only two kinds of space characters supported by most computers, the&lt;I&gt; space&lt;/I&gt; and the &lt;I&gt;no-break space&lt;/I&gt;.&amp;#8221; 
+<br/>This is somewhat misleading, since the support depends on fonts rather than computers, except for
+<br/>no-break space support, which depends on programs.
+<br/>&lt;/p&gt;
+<br/>
+<br/>&lt;P&gt;Alan Wood&amp;#8217;s excellent Unicode resources contain a page on
+<br/>the &lt;a href=
+<br/>&quot;http://www.alanwood.net/unicode/general_punctuation.html&quot;
+<br/>&gt;General Punctuation&lt;/a&gt; block, with widths of space characters
+<br/>illustrated graphically.&lt;/p&gt;
+<br/>
+<br/>&lt;p&gt;See also: &lt;cite&gt;&lt;a href=&quot;../styles/spaces.html&quot;&gt;Styling spaces in CSS&lt;/a&gt;&lt;/cite&gt;.&lt;/p&gt;
+<br/>
+<br/>&lt;h2&gt;Demonstration&lt;/h2&gt;
+<br/>
+<br/>&lt;p&gt;This paragraph is here for demonstration purposes only, and it contains normal &lt;small&gt;SPACE&lt;/small&gt; characters between words.&lt;/p&gt;
+<br/>
+<br/>&lt;p&gt;This&amp;#8198;paragraph&amp;#8198;is&amp;#8198;here&amp;#8198;for&amp;#8198;demonstration&amp;#8198;purposes&amp;#8198;only,&amp;#8198;and&amp;#8198;it&amp;#8198;contains&amp;#8198;&lt;small&gt;SIX-PER&lt;/small&gt;&amp;#8198;EM&amp;#8198;SPACE&amp;#8198;characters&amp;#8198;instead&amp;#8198;of&amp;#8198;normal&amp;#8198;&lt;small&gt;SPACE&lt;/small&gt;&amp;#8198;characters&amp;#8198;between&amp;#8198;words.&lt;/p&gt; 
+<br/>
+<br/>&lt;h2 id=visible&gt;Visible spaces&lt;/h2&gt;
+<br/>&lt;p&gt;There are some graphic characters that can be used a symbols
+<br/>for a space. Though sometimes called visible spaces, they are not
+<br/>spaces at all but visible notations used to indicate the appearance of
+<br/>spaces in instruction manuals and descriptions of texts.&lt;/p&gt;
+<br/>&lt;p&gt;The following table lists some symbols, in decreasing order by
+<br/>practical usefulness. Their shapes vary by font; especially the last one
+<br/>varies a lot.
+<br/>&lt;/p&gt;
+<br/>&lt;table class=normal&gt;
+<br/>&lt;tr&gt;&lt;td class=extchar&gt;&amp;#x2423; &lt;td&gt;U+2423 &lt;td&gt;&lt;small&gt;OPEN BOX&lt;/small&gt;
+<br/>&lt;tr&gt;&lt;td class=extchar&gt;&amp;#x2422; &lt;td&gt;U+2422 &lt;td&gt;&lt;small&gt;BLANK SYMBOL&lt;/small&gt;
+<br/>&lt;tr&gt;&lt;td class=extchar&gt;&amp;#x2420; &lt;td&gt;U+2420 &lt;td&gt;&lt;small&gt;SYMBOL FOR SPACE&lt;/small&gt;
+<br/>&lt;/table&gt;
+<br/>
+<br/>&lt;hr title=&quot;Information about this document&quot;&gt;
+<br/>
+<br/>&lt;div class=&quot;footer&quot;&gt;
+<br/>&lt;div&gt;Created
+<br/>2002-12-29. Last modified
+<br/>2019-01-30.
+<br/>&lt;/div&gt;
+<br/>&lt;div&gt;This page belongs to section
+<br/>&lt;cite&gt;&lt;a href=&quot;index.html&quot;&gt;Characters and encodings&lt;/a&gt;&lt;/cite&gt;
+<br/>of the free information site
+<br/>&lt;cite&gt;&lt;a href=&quot;../indexen.html&quot;&gt;IT and communication&lt;/a&gt;&lt;/cite&gt;
+<br/>by
+<br/>&lt;a href=&quot;../personal.html&quot; title=
+<br/>&quot;Jukka K. Korpela, an IT generalist and specialist (personal home page)&quot;
+<br/>&gt;&lt;span lang=&quot;fi&quot;&gt;Jukka&lt;/span&gt; &amp;#8220;Yucca&amp;#8221;
+<br/> &lt;span lang=&quot;fi&quot;&gt;Korpela&lt;/span&gt;&lt;/a&gt;.
+<br/>&lt;/div&gt;
+<br/>&lt;/div&gt;
+<br/>&lt;/body&gt;
+<br/>&lt;/html&gt;
+<br/></body></html>
